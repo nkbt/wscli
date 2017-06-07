@@ -1,6 +1,6 @@
 {
   "name": "wscli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CLI WebSocket client",
   "main": "index.js",
   "bin": {
