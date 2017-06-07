@@ -4,10 +4,10 @@
 const WebSocket = require('ws');
 
 
-exports.wscli = ({host, count, msg, log, end} = {}) => {
-  const ws = new WebSocket(host, {
+exports.wscli = ({host, count, msg, log, end} = {}, options) => {
+  const ws = new WebSocket(host, Object.assign({
     rejectUnauthorized: false
-  });
+  }, options));
   let err = undefined;
   let counter = count;
 
