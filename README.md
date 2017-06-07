@@ -1,16 +1,21 @@
 # wscli
 
-Hash publishable NPM package content
+CLI WebSocket client
 
-## CLI Installation
+**NOTE**: Since this tool is intended to be used in development, it sets 
+[rejectUnauthorized](https://nodejs.org/api/tls.html#tls_tls_connect_options_callback)
+option to `false`. It lets to bypass SSL Certificate checks when connecting to dev servers
 
-```bash
+
+## Installation
+
+```sh
 npm install -g wscli
 ```
 
-## CLI Usage
+## Usage
 
-```bash
+```sh
 wscli HOST [COUNT=1] [MSG]
 ```
 
