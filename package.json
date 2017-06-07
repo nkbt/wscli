@@ -1,0 +1,29 @@
+{
+  "name": "wscli",
+  "version": "0.0.0",
+  "description": "CLI WebSocket client",
+  "main": "index.js",
+  "bin": {
+    "wscli": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "cli",
+    "ci websocket",
+    "bash websocket"
+  ],
+  "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^3.0.0"
+  },
+  "files": [
+    "bin.js",
+    "index.js",
+    "README.md"
+  ]
+}
